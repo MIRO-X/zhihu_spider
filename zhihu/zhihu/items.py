@@ -1,14 +1,22 @@
 # -*- coding: utf-8 -*-
 
-# Define here the models for your scraped items
-#
-# See documentation in:
-# http://doc.scrapy.org/en/latest/topics/items.html
-
 import scrapy
 
 
 class ZhihuItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+
+	user_name = scrapy.Field()
+
+	user_location = scrapy.Field()
+
+	user_gender = scrapy.Field()
+
+	user_employment = scrapy.Field()
+
+	user_posotion = scrapy.Field()
+
+	user_education = scrapy.Field()
+
+	user_education_extra = scrapy.Field()
+
+	user_description = scrapy.Field()
